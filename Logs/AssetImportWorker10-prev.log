@@ -1,0 +1,365 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.11f1 (3000ef702840) revision 3145967'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Core' Language: 'tr' Physical Memory: 15577 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Sıla" at "2026-10-09T14:26:12.3784037Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-09T14:26:12Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker10
+-projectPath
+C:/Users/Sıla/2D game
+-logFile
+Logs/AssetImportWorker10.log
+-srvPort
+52598
+-licensingIpc
+LicenseClient-Sıla
+-job-worker-count
+15
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/Sıla/2D game
+C:/Users/Sıla/2D game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [12432]  Target information:
+
+Player connection [12432]  * "[IP] 192.168.1.105 [Port] 0 [Flags] 2 [Guid] 3280586873 [EditorId] 3280586873 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-OIF3SC5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [12432] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [12432] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 15
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 8.54 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.11f1 (3000ef702840)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Sıla/2D game/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 5060 Laptop GPU (ID=0x2d59)
+    Vendor:   NVIDIA
+    VRAM:     7899 MB
+    Driver:   32.0.15.9197
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56624
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.0'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Sıla"
+[Licensing::IpcConnector] LicenseClient-Sıla channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Sıla-6000.3.11" at "2026-10-09T14:26:13.2985544Z"
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003025 seconds.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.0+23225a6
+  Session Id:              dce337c948f54beda9f6c21346559644
+  Correlation Id:          2c50e999c5ad36aaba0171bbe3845e6c
+  External correlation Id: 7748765695123223325
+  Machine Id:              yKfHJPu79ZJ4JZDJEvBgN5qfmdA=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Sıla-6000.3.11" (connect: 0.00s, validation: 0.00s, handshake: 0.20s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Sıla-6000.3.11-notifications" at "2026-10-09T14:26:13.503169Z"
+[Licensing::Module] Licensing Background thread has ended after 1.13s
+- Loaded All Assemblies, in  0.451 seconds
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.316 seconds
+Domain Reload Profiling: 763ms
+	BeginReloadAssembly (176ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (172ms)
+		LoadAssemblies (173ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (169ms)
+			TypeCache.Refresh (166ms)
+				TypeCache.ScanAssembly (154ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (316ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (275ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (38ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (104ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18968380819686-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.721 seconds
+Refreshing native plugins compatible for Editor in 0.98 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.617 seconds
+Domain Reload Profiling: 1334ms
+	BeginReloadAssembly (145ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (503ms)
+		LoadAssemblies (378ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (202ms)
+			TypeCache.Refresh (146ms)
+				TypeCache.ScanAssembly (133ms)
+			BuildScriptInfoCaches (45ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (618ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (501ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (276ms)
+			ProcessInitializeOnLoadMethodAttributes (106ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.14 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6914 unused Assets / (4.3 MB). Loaded Objects now: 7732.
+Memory consumption went from 161.7 MB to 157.3 MB.
+Total: 7.569700 ms (FindLiveObjects: 0.866200 ms CreateObjectMapping: 0.289200 ms MarkObjects: 4.273900 ms  DeleteObjects: 2.139400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 209333.835422 seconds.
+  path: Assets/GrassJoinHillRight2&Left2.asset
+  artifactKey: Guid(b8a0489f1d9a2a243a258e4849c8ff7e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GrassJoinHillRight2&Left2.asset using Guid(b8a0489f1d9a2a243a258e4849c8ff7e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e288a56ab80b5c2c43f71202fe9a533b') in 0.0994656 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GrassJoinHillRight2.asset
+  artifactKey: Guid(c52ef981442a90d4b80b00c7465a8cc6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GrassJoinHillRight2.asset using Guid(c52ef981442a90d4b80b00c7465a8cc6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '07e7b4246424f8c1b3b4c3f112e69cc0') in 0.0130014 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/GrassJoinHillRight2&Left2 DownShadow.asset
+  artifactKey: Guid(6d788718afdb8b4489bcd5046d26337b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GrassJoinHillRight2&Left2 DownShadow.asset using Guid(6d788718afdb8b4489bcd5046d26337b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3a6dc6b93c4a5b76b5aa388b9dc0158c') in 0.0121076 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GrassMid.asset
+  artifactKey: Guid(0c16f56bef232674289f28f0f4049b48) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GrassMid.asset using Guid(0c16f56bef232674289f28f0f4049b48) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a23a91b5df63edf4400b7a4b855f2541') in 0.0121543 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GrassHillRight2.asset
+  artifactKey: Guid(895febb9505eba14fa38e2e2625d47f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GrassHillRight2.asset using Guid(895febb9505eba14fa38e2e2625d47f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '432b07d1bc69de48c9b4fddf3ce5200f') in 0.0127461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GrassJoinHillRight2 DownShadow.asset
+  artifactKey: Guid(e27906edc133f544db0a0a6dab8d8fcc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GrassJoinHillRight2 DownShadow.asset using Guid(e27906edc133f544db0a0a6dab8d8fcc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '04165239852e34567653fd1d6dc2fa9d') in 0.0141158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/GrassHillRight2 DownShadow.asset
+  artifactKey: Guid(8586d3be3cb260f49b28c0c8848ecacd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GrassHillRight2 DownShadow.asset using Guid(8586d3be3cb260f49b28c0c8848ecacd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f9e7f206654291561e7bd522756b5e4b') in 0.014159 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/GrassHillLeft2 1.asset
+  artifactKey: Guid(401f5399790c7bd409784bd0d1afbf19) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GrassHillLeft2 1.asset using Guid(401f5399790c7bd409784bd0d1afbf19) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '18c467a3f0198e4f6c83416bbb339e0e') in 0.0126455 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Grass 1.asset
+  artifactKey: Guid(a9cb0af97eb051241ac974593f9df9ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass 1.asset using Guid(a9cb0af97eb051241ac974593f9df9ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7dfb928f2f4ab92387c2d31f4b6055df') in 0.0149573 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/GrassJoinHillLeft2.asset
+  artifactKey: Guid(974bb5e8f0b77bf4f9b238f53caa307e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GrassJoinHillLeft2.asset using Guid(974bb5e8f0b77bf4f9b238f53caa307e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '109ad64692ccb6383a7c09c5e53bc05f') in 0.0179347 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/GrassLeft.asset
+  artifactKey: Guid(4afd4cc607a16e644936233b29e71e18) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GrassLeft.asset using Guid(4afd4cc607a16e644936233b29e71e18) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '295ab0037115a1dca38a9b02697ac451') in 0.0125461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/GrassJoinHillLeft&Right 1.asset
+  artifactKey: Guid(c26f4ec8457fd1e4692cca23d9cec47a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GrassJoinHillLeft&Right 1.asset using Guid(c26f4ec8457fd1e4692cca23d9cec47a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a8a8af2337b7bd422e7adcf7f7782f43') in 0.0118217 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/GrassCliffLeft 1.asset
+  artifactKey: Guid(4db0f0cf1298b9245857496b91c76766) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GrassCliffLeft 1.asset using Guid(4db0f0cf1298b9245857496b91c76766) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ab874bd35e8e12945d55a62a7be308ea') in 0.0147809 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/GrassHillLeft.asset
+  artifactKey: Guid(be3f33059a4d97d42b3d41c5f5098050) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GrassHillLeft.asset using Guid(be3f33059a4d97d42b3d41c5f5098050) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6c8bc0b7de35553324ad64df774a9295') in 0.014445 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GrassRight.asset
+  artifactKey: Guid(574b768d591f4714a894bd31e2fd842c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GrassRight.asset using Guid(574b768d591f4714a894bd31e2fd842c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e83c5c2c2ecd0f838a04867e0587c80d') in 0.013223 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/GrassColumn 1.asset
+  artifactKey: Guid(459d5061b9e3c0d49b6a7f8ebc5cbd2a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GrassColumn 1.asset using Guid(459d5061b9e3c0d49b6a7f8ebc5cbd2a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bda5c8325440fe7fa71a4a01e6b61eab') in 0.0150119 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/GrassCliffRight 1.asset
+  artifactKey: Guid(659d6db9d5e6ae34abaa1e481052f37d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GrassCliffRight 1.asset using Guid(659d6db9d5e6ae34abaa1e481052f37d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1d56d96f299823167be20c5c936e0470') in 0.016967 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
